@@ -25,6 +25,17 @@ $header-panel-bg-color: #f3f8fd;
 $room-header-button: #91A1C0;
 $sender-input-border: #91A1C0; //input field
 $event-list-text: #3944ad;
+$analytics-link-text: #00008b;
+
+
+
+//onescrin
+$room-header-btn: $room-header-button;
+$send-msg-input: $sender-input-border;
+$event-list-summary: $event-list-text;
+$analytics: $analytics-link-text;
+
+
 
 // typical text (dark-on-white in light skin)
 $primary-fg-color: #2e2f32;
@@ -46,11 +57,6 @@ $accent-color-alt: #238CF5;
 $selection-fg-color: $primary-bg-color;
 
 $focus-brightness: 105%;
-
-//onescrin
-$room-header-btn: $room-header-button;
-$send-msg-input: $sender-input-border;
-$event-list-summary: $event-list-text;
 
 // warning colours
 $warning-color: $notice-primary-color; // red

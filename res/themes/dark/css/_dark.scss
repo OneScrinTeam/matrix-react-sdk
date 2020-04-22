@@ -17,17 +17,22 @@ $room-highlight-color: #343a46;
 $room-header-button: #181b21;
 $sender-input-border: #ffffff;
 $event-list-text: #dadada;
+$analytics-link-text: #5388db;
+
+
+
+//onescrin
+$room-header-btn: $room-header-button;
+$send-msg-input: $sender-input-border;
+$event-list-summary: $event-list-text;
+$analytics: $analytics-link-text;
+
 
 
 // typical text (dark-on-white in light skin)
 $primary-fg-color: $text-primary-color;
 $primary-bg-color: $bg-color;
 $muted-fg-color: $header-panel-text-primary-color;
- 
-//onescrin
-$room-header-btn: $room-header-button;
-$send-msg-input: $sender-input-border;
-$event-list-summary: $event-list-text;
 
 
 // used for dialog box text
