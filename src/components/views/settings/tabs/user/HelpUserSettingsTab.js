@@ -237,7 +237,7 @@ export default class HelpUserSettingsTab extends React.Component {
                 <div className="mx_SettingsTab_heading">
                     {_t("Help & About")}
                 </div>
-                <div className="mx_SettingsTab_section">
+                {/* <div className="mx_SettingsTab_section">
                     <span className="mx_SettingsTab_subheading">
                         {_t("Bug reporting")}
                     </span>
@@ -282,8 +282,8 @@ export default class HelpUserSettingsTab extends React.Component {
                             }
                         )}
                     </div>
-                </div>
-                <div className="mx_SettingsTab_section">
+                </div>*/}
+                <div className="mx_SettingsTab_section"> 
                     <span className="mx_SettingsTab_subheading">
                         {_t("FAQ")}
                     </span>
