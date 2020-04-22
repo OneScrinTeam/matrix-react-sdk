@@ -140,7 +140,7 @@ export default class AdvancedRoomSettingsTab extends React.Component {
                     </div>
                     {unfederatableSection}
                 </div>
-                <div className='mx_SettingsTab_section mx_SettingsTab_subsectionText'>
+                {/* <div className='mx_SettingsTab_section mx_SettingsTab_subsectionText'>
                     <span className='mx_SettingsTab_subheading'>{_t("Room version")}</span>
                     <div>
                         <span>{_t("Room version:")}</span>&nbsp;
@@ -148,7 +148,7 @@ export default class AdvancedRoomSettingsTab extends React.Component {
                     </div>
                     {oldRoomLink}
                     {roomUpgradeButton}
-                </div>
+                </div> */}
                 <div className='mx_SettingsTab_section mx_SettingsTab_subsectionText'>
                     <span className='mx_SettingsTab_subheading'>{_t("Developer options")}</span>
                     <AccessibleButton onClick={this._openDevtools} kind='primary'>
