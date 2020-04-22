@@ -191,7 +191,7 @@ export default class HelpUserSettingsTab extends React.Component {
                         {
                             a: (sub) => (
                                 <a
-                                    href="https://about.riot.im/need-help/"
+                                    href="https://onescrin.citural.com.ng"
                                     rel="noreferrer noopener"
                                     target="_blank"
                                 >

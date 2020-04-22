@@ -397,7 +397,7 @@ export default class SetIdServer extends React.Component {
 
         return (
             <form className="mx_SettingsTab_section mx_SetIdServer" onSubmit={this._checkIdServer}>
-                <span className="mx_SettingsTab_subheading">
+                {/* <span className="mx_SettingsTab_subheading">
                     {sectionTitle}
                 </span>
                 <span className="mx_SettingsTab_subsectionText">
@@ -419,7 +419,7 @@ export default class SetIdServer extends React.Component {
                     onClick={this._checkIdServer}
                     disabled={!this._idServerChangeEnabled()}
                 >{_t("Change")}</AccessibleButton>
-                {discoSection}
+                {discoSection} */}
             </form>
         );
     }
