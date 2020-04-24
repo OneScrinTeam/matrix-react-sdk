@@ -15,8 +15,11 @@ limitations under the License.
 */
 
 .mx_RoomStatusBar {
-    margin-left: 65px;
-    min-height: 50px;
+    margin-left: 45px;
+    min-height: 50px; 
+    margin-bottom: 60px;
+    border: 1px solid #ddd;
+    // border-radius: 25%;
 }
 
 /* position the indicator in the same place horizontally as .mx_EventTile_avatar. */

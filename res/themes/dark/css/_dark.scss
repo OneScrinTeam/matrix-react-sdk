@@ -13,10 +13,27 @@ $search-bg-color: #181b21;
 $search-placeholder-color: #61708b;
 $room-highlight-color: #343a46;
 
+//onescrin var
+$room-header-button: #181b21;
+$sender-input-border: #ffffff;
+$event-list-text: #dadada;
+$analytics-link-text: #5388db;
+
+
+
+//onescrin
+$room-header-btn: $room-header-button;
+$send-msg-input: $sender-input-border;
+$event-list-summary: $event-list-text;
+$analytics: $analytics-link-text;
+
+
+
 // typical text (dark-on-white in light skin)
 $primary-fg-color: $text-primary-color;
 $primary-bg-color: $bg-color;
 $muted-fg-color: $header-panel-text-primary-color;
+
 
 // used for dialog box text
 $light-fg-color: $header-panel-text-secondary-color;

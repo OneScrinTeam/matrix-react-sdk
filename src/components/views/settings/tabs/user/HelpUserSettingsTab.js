@@ -191,7 +191,7 @@ export default class HelpUserSettingsTab extends React.Component {
                         {
                             a: (sub) => (
                                 <a
-                                    href="https://about.riot.im/need-help/"
+                                    href="https://onescrin.citural.com.ng"
                                     rel="noreferrer noopener"
                                     target="_blank"
                                 >
@@ -237,7 +237,7 @@ export default class HelpUserSettingsTab extends React.Component {
                 <div className="mx_SettingsTab_heading">
                     {_t("Help & About")}
                 </div>
-                <div className="mx_SettingsTab_section">
+                {/* <div className="mx_SettingsTab_section">
                     <span className="mx_SettingsTab_subheading">
                         {_t("Bug reporting")}
                     </span>
@@ -282,14 +282,16 @@ export default class HelpUserSettingsTab extends React.Component {
                             }
                         )}
                     </div>
-                </div>
-                <div className="mx_SettingsTab_section">
-                    <span className="mx_SettingsTab_subheading">
+                </div>*/}
+                <div className="mx_SettingsTab_section"> 
+                    {/* <span className="mx_SettingsTab_subheading">
                         {_t("FAQ")}
                     </span>
                     <div className="mx_SettingsTab_subsectionText">
                         {faqText}
-                    </div>
+                    </div> */}
+                    <br></br>
+                    <br/>
                     <AccessibleButton
                         kind="primary"
                         onClick={KeyboardShortcuts.toggleDialog}
@@ -311,7 +313,7 @@ export default class HelpUserSettingsTab extends React.Component {
                 {this._renderLegal()}
                 {/* {this._renderCredits()} */}
                 <div className="mx_SettingsTab_section mx_HelpUserSettingsTab_versions">
-                    <span className="mx_SettingsTab_subheading">
+                    {/* <span className="mx_SettingsTab_subheading">
                         {_t("Advanced")}
                     </span>
                     <div className="mx_SettingsTab_subsectionText">
@@ -331,7 +333,7 @@ export default class HelpUserSettingsTab extends React.Component {
                         >
                             &lt;{_t("click to reveal")}&gt;
                         </AccessibleButton>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         );

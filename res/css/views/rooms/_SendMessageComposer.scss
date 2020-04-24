@@ -31,6 +31,11 @@ limitations under the License.
         // min-height at this level so the mx_BasicMessageComposer_input
         // still stays vertically centered when less than 50px
         min-height: 50px;
+        margin-bottom: 20px;
+        border: 1px solid $send-msg-input;
+        border-radius: 25px;
+        padding: 6px;
+        margin-top: 40px;
 
         .mx_BasicMessageComposer_input {
             padding: 3px 0;

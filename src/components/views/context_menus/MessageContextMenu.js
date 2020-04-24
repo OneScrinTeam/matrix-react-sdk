@@ -491,7 +491,7 @@ export default createReactClass({
                 { cancelButton }
                 { forwardButton }
                 { pinButton }
-                { viewSourceButton }
+                {/* { viewSourceButton } */}
                 { viewClearSourceButton }
                 { unhidePreviewButton }
                 { permalinkButton }

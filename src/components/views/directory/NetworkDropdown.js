@@ -246,9 +246,9 @@ const NetworkDropdown = ({onOptionChange, protocols = {}, selectedServerName, se
         content = <ContextMenu {...inPlaceOf(buttonRect)} onFinished={closeMenu}>
             <div className="mx_NetworkDropdown_menu">
                 {options}
-                <MenuItem className="mx_NetworkDropdown_server_add" label={undefined} onClick={onClick}>
+                {/* <MenuItem className="mx_NetworkDropdown_server_add" label={undefined} onClick={onClick}>
                     {_t("Add a new server...")}
-                </MenuItem>
+                </MenuItem> */}
             </div>
         </ContextMenu>;
     } else {
