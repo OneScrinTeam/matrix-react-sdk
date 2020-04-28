@@ -26,7 +26,8 @@ $room-header-button: #91A1C0;
 $sender-input-border: #91A1C0; //input field
 $event-list-text: #3944ad;
 $analytics-link-text: #00008b;
-
+$link-btn-color: #00008b; 
+$browse-text: #00008b;
 
 
 //onescrin
@@ -34,7 +35,8 @@ $room-header-btn: $room-header-button;
 $send-msg-input: $sender-input-border;
 $event-list-summary: $event-list-text;
 $analytics: $analytics-link-text;
-
+$btn-link: $link-btn-color;
+$browse-color: $browse-text;
 
 
 // typical text (dark-on-white in light skin)
