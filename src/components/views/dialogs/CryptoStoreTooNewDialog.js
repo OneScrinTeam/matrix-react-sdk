@@ -28,7 +28,7 @@ export default (props) => {
             description: _t(
                 "To avoid losing your chat history, you must export your room keys " +
                 "before logging out. You will need to go back to the newer version of " +
-                "Riot to do this",
+                "OneScrin to do this",
             ),
             button: _t("Sign out"),
             focus: false,
