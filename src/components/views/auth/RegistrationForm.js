@@ -675,10 +675,7 @@ export default createReactClass({
                     {yourMatrixAccountText}
                     {editLink}
                 </h3>
-                <form onSubmit={this.onSubmit}>
-                    <div className="mx_AuthBody_fieldRow">
-                        {this.renderEmail()}
-                    </div>
+                <form onSubmit={this.onSubmit}>          
                     <div className="mx_AuthBody_fieldRow">
                         {this.renderUsername()}
                     </div>
