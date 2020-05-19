@@ -37,6 +37,7 @@ export default class LanguageDropdown extends React.Component {
         this.state = {
             searchQuery: '',
             langs: null,
+            disabled: false,
         };
     }
 
@@ -113,6 +114,7 @@ export default class LanguageDropdown extends React.Component {
             onSearchChange={this._onSearchChange}
             searchEnabled={true}
             value={value}
+            disabled={true}
             label={_t("Language Dropdown")}
         >
             { options }
