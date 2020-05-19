@@ -677,6 +677,9 @@ export default createReactClass({
                 </h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="mx_AuthBody_fieldRow">
+                        {this.renderEmail()}
+                    </div>
+                    <div className="mx_AuthBody_fieldRow">
                         {this.renderUsername()}
                     </div>
                     <div className="mx_AuthBody_fieldRow">
