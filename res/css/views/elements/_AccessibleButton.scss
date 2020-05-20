@@ -37,8 +37,9 @@ limitations under the License.
 }
 
 .mx_AccessibleButton_kind_secondary {
-    color: $accent-color;
-    font-weight: 600;
+    color: $event-list-summary;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .mx_AccessibleButton_kind_primary.mx_AccessibleButton_disabled {
@@ -77,7 +78,7 @@ limitations under the License.
 }
 
 .mx_AccessibleButton_kind_link {
-    color: $button-link-fg-color;
+    color: $btn-link;
     background-color: $button-link-bg-color;
 }
 

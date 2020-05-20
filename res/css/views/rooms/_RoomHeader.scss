@@ -67,7 +67,9 @@ limitations under the License.
 
 .mx_RoomHeader_buttons {
     display: flex;
-    background-color: #91A1C0;
+    // background-color: #91A1C0;
+    // background-color: $primary-bg-color;
+    background-color: $room-header-btn;
     color: #ffffff;
     padding: 5px;
     border-radius: 25px;

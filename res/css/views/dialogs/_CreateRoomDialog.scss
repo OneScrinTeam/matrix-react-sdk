@@ -20,7 +20,7 @@ limitations under the License.
         list-style: none;
         font-weight: 600;
         cursor: pointer;
-        color: $accent-color;
+        color: $btn-link;
 
         // list-style doesn't do it for webkit
         &::-webkit-details-marker {

@@ -286,17 +286,17 @@ export default class SecurityUserSettingsTab extends React.Component {
         return (
             <div className="mx_SettingsTab mx_SecurityUserSettingsTab">
                 <div className="mx_SettingsTab_heading">{_t("Security & Privacy")}</div>
-                <div className="mx_SettingsTab_section">
+                {/* <div className="mx_SettingsTab_section">
                     <span className="mx_SettingsTab_subheading">{_t("Sessions")}</span>
                     <div className='mx_SettingsTab_subsectionText'>
                         {_t("A session's public name is visible to people you communicate with")}
                         <DevicesPanel />
                     </div>
-                </div>
+                </div> */}
                 {keyBackup}
                 {eventIndex}
                 {crossSigning}
-                {this._renderCurrentDeviceInfo()}
+                {/* {this._renderCurrentDeviceInfo()} */}
                 <div className='mx_SettingsTab_section'>
                     <span className="mx_SettingsTab_subheading">{_t("Analytics")}</span>
                     <div className='mx_SettingsTab_subsectionText'>

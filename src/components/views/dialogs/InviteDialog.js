@@ -17,7 +17,7 @@ limitations under the License.
 import React, {createRef} from 'react';
 import PropTypes from 'prop-types';
 import {_t} from "../../../languageHandler";
-import * as sdk from "../../../index";
+import * as sdk from "../../../index"; 
 import {MatrixClientPeg} from "../../../MatrixClientPeg";
 import {makeRoomPermalink, makeUserPermalink} from "../../../utils/permalinks/Permalinks";
 import DMRoomMap from "../../../utils/DMRoomMap";
@@ -1072,7 +1072,7 @@ export default class InviteDialog extends React.PureComponent {
 
             title = _t("Direct Messages");
             helpText = _t(
-                "Start a conversation with someone using their name, username (like <userId/>) or email address.",
+                "Start a conversation with someone using their name or username (like <userId/>).",
                 {},
                 {userId: () => {
                     return <a href={makeUserPermalink(userId)} rel="noreferrer noopener" target="_blank">{userId}</a>;

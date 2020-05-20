@@ -365,7 +365,7 @@ export default class AliasSettings extends React.Component {
                         return <option value={alias} key={alias} />;
                     })};
                 </datalist>
-                <EditableAliasesList
+                {/* <EditableAliasesList
                     id="roomAltAliases"
                     className={"mx_RoomSettings_altAliases"}
                     items={this.state.altAliases}
@@ -379,13 +379,13 @@ export default class AliasSettings extends React.Component {
                     itemsLabel={_t('Other published addresses:')}
                     noItemsLabel={_t('No other published addresses yet, add one below')}
                     placeholder={_t('New published address (e.g. #alias:server)')}
-                />
-                <span className='mx_SettingsTab_subheading mx_AliasSettings_localAliasHeader'>{_t("Local Addresses")}</span>
+                /> */}
+                {/* <span className='mx_SettingsTab_subheading mx_AliasSettings_localAliasHeader'>{_t("Local Addresses")}</span>
                 <p>{_t("Set addresses for this room so users can find this room through your homeserver")}</p>
                 <details onToggle={this.onLocalAliasesToggled}>
                     <summary>{ this.state.detailsOpen ? _t('Show less') : _t("Show more")}</summary>
                     {localAliasesList}
-                </details>
+                </details> */}
             </div>
         );
     }
